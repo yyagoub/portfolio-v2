@@ -7,20 +7,20 @@ import Contact from '../pages/Contact';
 
 export const routes = [
   {
-    path: '/about',
+    path: '/portfolio-v2',
     name: 'About',
     showInSidebar: true,
     component: About,
     defualtRoute: true,
   },
   {
-    path: '/projects',
+    path: '/portfolio-v2/projects',
     name: 'Projects',
     showInSidebar: true,
     component: Projects,
   },
   {
-    path: '/contact',
+    path: '/portfolio-v2/contact',
     name: 'Contact',
     showInSidebar: true,
     component: Contact,
@@ -38,7 +38,7 @@ export default function Routes() {
     <div>
       <Switch>
         {getRoutes(routes)}
-        <Redirect from='*' to='/about' />
+        <Redirect from='*' to='/portfolio-v2' />
       </Switch>
     </div>
   );
