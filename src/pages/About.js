@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h2>About Router</h2>
+      <h2>About</h2>
       <p>
         <code>
           I’m a software developer, lucky enough to love what I do for living,
