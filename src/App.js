@@ -9,7 +9,9 @@ function App() {
   return (
     <div class='grid-2'>
       <Sidebar />
-      <About />
+      <div class='section-2'>
+        <About />
+      </div>
     </div>
   );
 }
