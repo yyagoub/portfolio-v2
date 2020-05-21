@@ -9,7 +9,7 @@ export const projects = [
     src: 'https://github.com/yyagoub/portfolio-v2',
   },
   {
-    title: 'Semi-enterprise application',
+    title: 'Semi enterprise level application',
     descs: [
       'Here I was trying to simulate an enterprise-level application that has secured apis,' +
         ' I used spring boot application and mysql as database',
