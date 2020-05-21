@@ -28,8 +28,10 @@ export const routes = [
 ];
 
 function getRoutes() {
-  return routes.map((route) => {
-    return <Route path={route.path} component={route.component} exact />;
+  return routes.map((route, index) => {
+    return (
+      <Route path={route.path} component={route.component} exact key={index} />
+    );
   });
 }
 

@@ -35,6 +35,13 @@ p {
     monospace;
 }
 
+span {
+  color: #7a7c80;
+  text-decoration: none;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 /* section 1 */
 .section-1 {
   padding-top: 40vh;
@@ -43,6 +50,11 @@ p {
 }
 
 .section-1 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.section-1 span {
   font-size: 1.1rem;
   padding-bottom: 10px;
   margin: 0;
@@ -70,6 +82,12 @@ p {
 }
 
 .section-2 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.section-2 span {
   font-size: 1.1rem;
   padding-bottom: 10px;
   margin: 0;

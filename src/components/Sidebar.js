@@ -5,9 +5,9 @@ import { routes } from '../util/routes';
 function createLinkes() {
   return routes
     .filter((route) => route.showInSidebar)
-    .map((route) => {
+    .map((route, index) => {
       return (
-        <>
+        <dev key={index}>
           <br />
           <NavLink
             to={route.path}
@@ -17,15 +17,15 @@ function createLinkes() {
           >
             {route.name}
           </NavLink>
-        </>
+        </dev>
       );
     });
 }
 
 function Sidebar() {
   return (
-    <div class='section-1'>
-      <i class='fas fa-code fa-5x white'></i>
+    <div className='section-1'>
+      <i className='fas fa-code fa-5x white'></i>
       <h2>Yousef Yagoub,</h2>
       <p>Software Developer.</p>
       {createLinkes()}

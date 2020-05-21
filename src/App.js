@@ -7,10 +7,10 @@ import Routes from './util/routes';
 
 function App() {
   return (
-    <div class='grid-2'>
+    <div className='grid-2'>
       <BrowserRouter>
         <Sidebar />
-        <div class='section-2'>
+        <div className='section-2'>
           <Routes />
         </div>
       </BrowserRouter>
