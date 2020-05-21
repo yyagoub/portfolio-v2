@@ -25,6 +25,8 @@ function createLinkes() {
 function Sidebar() {
   return (
     <div className='section-1'>
+      <p>/* TO-DO: one day I'll change this picture */</p>
+      <img src={process.env.PUBLIC_URL + '/logo512.png'} alt='' width='250' />
       <i className='fas fa-code fa-5x white'></i>
       <h2>Yousef Yagoub,</h2>
       <p>Software Developer.</p>
