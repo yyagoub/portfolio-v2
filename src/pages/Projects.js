@@ -4,7 +4,7 @@ import { projects } from '../constants/projects';
 function createProjectsDescs(descs) {
   if (descs === undefined) return null;
   return descs.map((desc, index) => {
-    return <span key={index}>{desc}</span>;
+    return <p key={index}>{desc}</p>;
     //return <p key={index}>{desc}</p>;
   });
 }
