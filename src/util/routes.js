@@ -8,40 +8,36 @@ import Contact from '../pages/Contact';
 export const routes = [
   {
     path: '/about',
-    name: 'About',
+    labelKey: 'nav.home',
     showInSidebar: true,
     component: About,
-    defualtRoute: true,
+    defaultRoute: true,
   },
   {
-    path: '/projects',
-    name: 'Projects',
+    path: '/platforms',
+    labelKey: 'nav.platforms',
     showInSidebar: true,
     component: Projects,
   },
   {
     path: '/contact',
-    name: 'Contact',
+    labelKey: 'nav.contact',
     showInSidebar: true,
     component: Contact,
   },
 ];
 
 function getRoutes() {
-  return routes.map((route, index) => {
-    return (
-      <Route path={route.path} component={route.component} exact key={index} />
-    );
-  });
+  return routes.map((route) => (
+    <Route path={route.path} component={route.component} exact key={route.path} />
+  ));
 }
 
 export default function Routes() {
   return (
-    <div>
-      <Switch>
-        {getRoutes(routes)}
-        <Redirect from='*' to='/about' />
-      </Switch>
-    </div>
+    <Switch>
+      {getRoutes()}
+      <Redirect from="*" to="/about" />
+    </Switch>
   );
 }

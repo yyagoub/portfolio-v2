@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Yousef Yagoub — Technology Leader",
+    "description": "Yousef Yagoub — technology leader for national-scale identity and verification platforms. I turn complexity into clarity, building systems that matter and the teams behind them."
+  },
+  "nav": {
+    "home": "Home",
+    "platforms": "Platforms",
+    "contact": "Contact",
+    "skipToContent": "Skip to main content"
+  },
+  "sidebar": {
+    "name": "Yousef Yagoub",
+    "role": "Technology Leader",
+    "subrole": "Identity & Verification Platforms",
+    "languageLabel": "Switch language",
+    "social": "Find me online"
+  },
+  "hero": {
+    "eyebrow": "Technology Leader",
+    "name": "Yousef Yagoub",
+    "title": "I build national-scale identity systems — and the teams behind them.",
+    "tagline": "Builder, analyzer, and translator. I turn fuzzy requirements into clean systems, bridge business and technology, and make complex things simple.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "See my work",
+    "ecosystemCenter": "Identity",
+    "ecosystemCaption": "The national identity ecosystem I help build.",
+    "ecosystemAria": "Diagram: a central identity hub connected to Nafath, Absher Bio Verification, Mobile Verification, Fingerprint, and Dakhli."
+  },
+  "readMore": {
+    "more": "Read more",
+    "less": "Show less"
+  },
+  "about": {
+    "eyebrow": "How I work",
+    "heading": "I turn complexity into clarity.",
+    "lead": "I'm most alive resolving real pain, finding the hidden gap, and shaping messy operations into clean, repeatable systems. I bridge business and technology, and I make complex things simple.",
+    "quote": "Leave every person and every system you touch a little simpler, a little stronger, and a little more capable than you found it.",
+    "more": [
+      "I lead with humans, not just facts — harsh truths without empathy lose the room. I build the infrastructure first: solid ground before features, in systems and in teams alike.",
+      "And I measure success by the people around me — I want them to leave more capable, more confident, and more themselves than when we met."
+    ]
+  },
+  "metrics": {
+    "heading": "Impact at a glance",
+    "items": {
+      "platforms": { "value": "5", "label": "National identity platforms owned" },
+      "scale": { "value": "National", "label": "Scale of the systems delivered" },
+      "team": { "value": "Cross-functional", "label": "Delivery team led end to end" },
+      "facing": { "value": "Regulator-facing", "label": "Technical voice with partners & regulators" }
+    }
+  },
+  "values": {
+    "heading": "What I do",
+    "intro": "Three modes I move between, depending on what the problem needs.",
+    "items": {
+      "build": {
+        "title": "Build",
+        "body": "Design and deliver systems at scale — architecture, sequencing, tradeoffs, and the infrastructure that holds it all up. Solid ground before features."
+      },
+      "analyze": {
+        "title": "Analyze",
+        "body": "Own how the system fits together — the data model, entity definitions, integration contracts, and the rules that govern how it behaves."
+      },
+      "translate": {
+        "title": "Translate",
+        "body": "Bridge business, partners, and regulators — turning the solution into the terms each audience trusts, and owning the credibility of what we say we can do."
+      }
+    }
+  },
+  "platforms": {
+    "eyebrow": "Platforms & work",
+    "heading": "Systems I drive at national scale.",
+    "intro": "Identity and verification products I drive — from architecture and delivery through production support and stakeholder leadership.",
+    "roleLabel": "My role",
+    "items": {
+      "nafath": {
+        "name": "Nafath",
+        "short": "Nafath",
+        "desc": "National digital identity and single sign-on used to authenticate citizens and residents across public and private services — App and Web.",
+        "role": "Technical delivery, architecture, and stakeholder leadership across the product surface."
+      },
+      "absherBio": {
+        "name": "Absher Bio Verification",
+        "short": "Absher Bio",
+        "desc": "Biometric identity verification integrated into high-trust government and financial journeys.",
+        "role": "Systems analysis, integration contracts, and delivery to production."
+      },
+      "mobileVerification": {
+        "name": "Mobile Verification",
+        "short": "Mobile",
+        "desc": "Mobile-number ownership and identity verification for secure onboarding and authentication.",
+        "role": "Technical planning, sequencing, and production support."
+      },
+      "fingerprint": {
+        "name": "Fingerprint",
+        "short": "Fingerprint",
+        "desc": "Fingerprint-based biometric verification for identity assurance in sensitive workflows.",
+        "role": "Architecture choices and delivery leadership."
+      },
+      "dakhli": {
+        "name": "Dakhli",
+        "short": "Dakhli",
+        "desc": "Income and entitlement data verification that lets services make decisions on trusted, consented data.",
+        "role": "Systems analysis, integration design, and delivery."
+      }
+    }
+  },
+  "experience": {
+    "heading": "Experience & leadership",
+    "intro": "Where I lead today, and the foundation it is built on.",
+    "skillsLabel": "Focus areas",
+    "items": {
+      "lead": {
+        "period": "Now",
+        "title": "Product & Technology Lead — Identity Platforms",
+        "org": "Elm",
+        "body": "Own technical delivery for a portfolio of national identity platforms. Lead a cross-functional team across delivery, production support, client onboarding, and software development. Run sprints, set architecture and priorities, make hiring calls, and represent the products to clients, partners, and regulators.",
+        "tags": ["Architecture", "Delivery (SCRUM)", "Systems analysis", "Stakeholder leadership", "Hiring"]
+      },
+      "engineer": {
+        "period": "Foundation",
+        "title": "Software Engineer → Systems Analyst",
+        "org": "Server-side & full-stack",
+        "body": "Grew from hands-on engineering — Java, Spring (Web, Data, Security, Cloud), SQL, and React — into systems analysis and technical leadership. The craft underneath the leadership.",
+        "tags": ["Java", "Spring", "React", "SQL", "Integration design"]
+      }
+    }
+  },
+  "growth": {
+    "heading": "Growing forward",
+    "items": {
+      "emba": { "title": "Executive MBA", "body": "Sharpening strategy, finance, and business judgment to lead at the intersection of technology and the business." },
+      "speaking": { "title": "Public speaking", "body": "Building leadership presence through deliberate practice — reps over readiness." },
+      "learning": { "title": "Always learning", "body": "Small doses daily — technology, management, and investing. Staying relevant by never stopping." }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Get in touch",
+    "intro": "Open to senior technology leadership conversations. The fastest way to reach me is below.",
+    "channels": {
+      "email": { "label": "Email", "value": "yousef.y.yagoub@gmail.com" },
+      "linkedin": { "label": "LinkedIn", "value": "Connect on LinkedIn" },
+      "github": { "label": "GitHub", "value": "github.com/yyagoub" }
+    }
+  },
+  "footer": {
+    "tagline": "Turning complexity into clarity.",
+    "rights": "Yousef Yagoub. All rights reserved."
+  }
+}
