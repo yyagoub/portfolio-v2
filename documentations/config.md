@@ -100,6 +100,30 @@ NODE_OPTIONS=--openssl-legacy-provider npm run deploy
 - The `homepage` value also controls the asset base path (`/portfolio-v2/`) baked
   into the build.
 
+### 7b. Deploy to the account root (`https://yyagoub.github.io/`)
+
+A **project repo** can only serve under `/portfolio-v2/`. To serve at the bare
+root, the build must be published to the **user-site repo `yyagoub.github.io`**
+(GitHub publishes that repo's `master` branch at the root). One command does it:
+
+```bash
+npm run deploy:root
+```
+
+Which runs:
+- `build:root` — `PUBLIC_URL=/ react-scripts build` (root-absolute asset paths,
+  `/static/...`, plus the `NODE_OPTIONS=--openssl-legacy-provider` flag), then
+- `gh-pages -d build -b master -r https://github.com/yyagoub/yyagoub.github.io.git -f`
+  — force-publishes to the user-site repo's `master`.
+
+Notes:
+- This **overwrites** whatever the `yyagoub.github.io` repo currently serves at the
+  root (history is recoverable in that repo).
+- GitHub Pages takes ~1–5 min to rebuild after the push; the root URL updates then.
+- `package.json` `homepage` is left as `/portfolio-v2` so the normal
+  `npm run deploy` (project page) still works; the root path is set via `PUBLIC_URL`
+  only inside `build:root`.
+
 ## 8. Recommended modernization (optional)
 
 The deprecated CRA toolchain is the root of the Node-version pain. Migrating to

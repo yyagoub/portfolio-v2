@@ -18,6 +18,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build:root": "NODE_OPTIONS=--openssl-legacy-provider PUBLIC_URL=/ react-scripts build",
+    "deploy:root": "npm run build:root && gh-pages -d build -b master -r https://github.com/yyagoub/yyagoub.github.io.git -f",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
